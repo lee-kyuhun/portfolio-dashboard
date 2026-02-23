@@ -1,0 +1,85 @@
+{
+  "project": "PJ006_portfolio-dashboard",
+  "hired_at": "2026-02-23",
+  "status": "active",
+  "current_phase": "phase_4_build",
+  "agents": [
+    {
+      "role": "orchestrator",
+      "source": "~/.claude/agents/orchestrator.md",
+      "status": "active",
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "pm",
+      "source": "~/.claude/agents/pm.md",
+      "memory_loaded": true,
+      "memory_path": ".squad/memory/pm.md",
+      "status": "phase_complete",
+      "deliverables": [".squad/01_planning/PRD.md"],
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "designer",
+      "source": "~/.claude/agents/designer.md",
+      "memory_loaded": true,
+      "memory_path": ".squad/memory/designer.md",
+      "status": "phase_complete",
+      "deliverables": [".squad/02_design/Design_Brief.md", ".squad/02_design/UI_Specs.md"],
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "tech-lead",
+      "source": "~/.claude/agents/tech-lead.md",
+      "memory_loaded": true,
+      "memory_path": ".squad/memory/tech-lead.md",
+      "status": "phase_complete",
+      "deliverables": [".squad/03_architecture/Tech_Spec.md"],
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "frontend-lead",
+      "source": "~/.claude/agents/frontend-lead.md",
+      "memory_loaded": false,
+      "memory_path": ".squad/memory/frontend-lead.md",
+      "status": "pending",
+      "deliverables": [],
+      "pending_tasks": ["Tech Spec Phase 1~6 구현"],
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "qa-reviewer",
+      "source": "~/.claude/agents/qa-reviewer.md",
+      "memory_loaded": false,
+      "memory_path": ".squad/memory/qa-reviewer.md",
+      "status": "pending",
+      "deliverables": [".squad/04_qa/test_spec.md"],
+      "last_updated": "2026-02-23"
+    },
+    {
+      "role": "devops",
+      "source": "~/.claude/agents/devops.md",
+      "memory_loaded": false,
+      "memory_path": ".squad/memory/devops.md",
+      "status": "pending",
+      "deliverables": [".squad/05_deploy/Deploy_Spec.md"],
+      "last_updated": "2026-02-23"
+    }
+  ],
+  "gates": {
+    "prd_approved": true,
+    "prd_approved_at": "2026-02-23",
+    "ui_specs_approved": true,
+    "ui_specs_approved_at": "2026-02-23",
+    "tech_spec_approved": true,
+    "tech_spec_approved_at": "2026-02-23",
+    "build_complete": false,
+    "build_complete_at": null,
+    "qa_complete": false,
+    "qa_complete_at": null,
+    "deploy_complete": false,
+    "deploy_complete_at": null
+  },
+  "ephemeral_log": [],
+  "command_history": []
+}

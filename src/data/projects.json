@@ -1,0 +1,52 @@
+[
+  {
+    "id": "startup-radar",
+    "title": "Startup Radar",
+    "description": "한국 VC/스타트업 생태계 종사자를 위한 인물·기관 중심 정보 허브",
+    "thumbnail": "",
+    "url": "",
+    "githubUrl": "https://github.com/lee-kyuhun/startup-radar",
+    "category": "비즈니스",
+    "status": "개발중",
+    "techStack": ["Python", "FastAPI", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Redis", "Playwright", "BeautifulSoup"],
+    "period": "2026.02 ~",
+    "highlights": [
+      "인물/기관 피드 통합 — 스타트업 생태계 주요 인물과 기관 정보를 한 곳에서 확인",
+      "키워드 기반 뉴스 크롤링 — 관심 키워드로 관련 뉴스를 자동 수집 및 분류",
+      "SNS(Threads/LinkedIn) 포스트 수집 — 주요 인물의 SNS 활동을 실시간 모니터링"
+    ]
+  },
+  {
+    "id": "growth-log",
+    "title": "Growth Log",
+    "description": "개발 과정을 기록하고 보여주는 성장 로그 & 포트폴리오 사이트",
+    "thumbnail": "",
+    "url": "",
+    "githubUrl": "https://github.com/lee-kyuhun/PJ003-Growth-Log",
+    "category": "개발도구",
+    "status": "운영중",
+    "techStack": ["React", "Vite", "JavaScript", "Tailwind CSS", "Framer Motion", "React Router", "React Markdown"],
+    "period": "2026.02 ~",
+    "highlights": [
+      "마크다운 기반 DevLog 뷰어 — 마크다운 파일을 아름답게 렌더링하는 개발 일지 시스템",
+      "Glassmorphism 디자인 — 유리 질감의 현대적 UI로 차별화된 포트폴리오 경험 제공",
+      "포트폴리오 갤러리 — 프로젝트들을 시각적으로 매력적인 갤러리 형태로 전시"
+    ]
+  },
+  {
+    "id": "lotto-generator",
+    "title": "Lotto Number Generator",
+    "description": "웹 컴포넌트 기반 로또 번호 생성기",
+    "thumbnail": "",
+    "url": "",
+    "githubUrl": "https://github.com/lee-kyuhun/product-builder",
+    "category": "웹",
+    "status": "운영중",
+    "techStack": ["HTML", "CSS", "JavaScript", "Cloudflare Workers"],
+    "period": "2026.01 ~",
+    "highlights": [
+      "Web Component 기반 커스텀 엘리먼트 — 프레임워크 없이 순수 웹 표준으로 재사용 가능한 컴포넌트 구현",
+      "GTM 분석 연동 — Google Tag Manager를 활용한 사용자 행동 데이터 수집 및 분석"
+    ]
+  }
+]
