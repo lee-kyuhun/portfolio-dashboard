@@ -1,5 +1,22 @@
 [
   {
+    "id": "og-image-api",
+    "title": "OG Image API",
+    "description": "URL 하나로 Open Graph 이미지를 자동 생성하는 API 서비스",
+    "thumbnail": "",
+    "url": "https://og-image-web.pages.dev",
+    "githubUrl": "https://github.com/lee-kyuhun/PJ008_og-image-api",
+    "category": "개발도구",
+    "status": "운영중",
+    "techStack": ["TypeScript", "Cloudflare Workers", "Next.js", "Tailwind CSS", "resvg-wasm", "Cloudflare R2", "Cloudflare D1", "Zod"],
+    "period": "2026.02 ~",
+    "highlights": [
+      "resvg-wasm 기반 Edge 렌더링 — Cloudflare Workers에서 ~50ms 만에 SVG→PNG 변환",
+      "다중 템플릿 시스템 — 블로그, 소셜, 프로덕트 등 다양한 OG 이미지 템플릿 제공",
+      "Cloudflare R2 캐싱 — 동일 요청 시 캐시된 이미지를 즉시 반환하여 비용 절감"
+    ]
+  },
+  {
     "id": "startup-radar",
     "title": "Startup Radar",
     "description": "한국 VC/스타트업 생태계 종사자를 위한 인물·기관 중심 정보 허브",
