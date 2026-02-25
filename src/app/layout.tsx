@@ -8,9 +8,15 @@ const geistSans = localFont({
   weight: "100 900",
 });
 
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
-  title: "Portfolio Dashboard",
-  description: "프로젝트 포트폴리오 대시보드",
+  title: "Gromit — Full-Stack Developer",
+  description: "아이디어를 제품으로 만드는 풀스택 개발자 Gromit의 포트폴리오",
 };
 
 export default function RootLayout({
@@ -19,8 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
-      <body className={`${geistSans.variable} font-sans antialiased bg-nm-bg`}>
+    <html lang="ko" className="scroll-smooth">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased relative`}
+      >
         {children}
       </body>
     </html>

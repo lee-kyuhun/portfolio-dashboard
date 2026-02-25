@@ -1,17 +1,17 @@
 export const gradients = [
-  "from-indigo-200 to-purple-200",
-  "from-sky-200 to-cyan-200",
-  "from-amber-200 to-orange-200",
-  "from-emerald-200 to-teal-200",
-  "from-rose-200 to-pink-200",
-  "from-violet-200 to-fuchsia-200",
+  "from-accent/20 to-cyan-500/20",
+  "from-blue-500/20 to-purple-500/20",
+  "from-emerald-500/20 to-teal-500/20",
+  "from-orange-500/20 to-amber-500/20",
+  "from-rose-500/20 to-pink-500/20",
+  "from-violet-500/20 to-indigo-500/20",
 ];
 
 export const statusColor: Record<string, string> = {
-  운영중: "bg-green-100 text-green-700",
-  개발중: "bg-yellow-100 text-yellow-700",
-  계획중: "bg-blue-100 text-blue-700",
-  중단: "bg-gray-100 text-gray-500",
+  운영중: "border-emerald-400/50 text-emerald-400",
+  개발중: "border-amber-400/50 text-amber-400",
+  계획중: "border-blue-400/50 text-blue-400",
+  중단: "border-gray-400/50 text-gray-400",
 };
 
 export function getGradient(id: string): string {
